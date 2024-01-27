@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="CharacterInfo" load_steps=2 format=3 uid="uid://bql1ictq73hgo"]
+
+[ext_resource type="Script" path="res://scripts/character_info.gd" id="1_ygj36"]
+
+[resource]
+script = ExtResource("1_ygj36")
+initial_joke = ""
+roast_jokes = Array[String]([])

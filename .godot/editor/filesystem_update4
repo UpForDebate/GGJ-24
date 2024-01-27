@@ -1,0 +1,9 @@
+res://scripts/main.gd
+res://scripts/perfil_info.gd
+res://scripts/character_info.gd
+res://scripts/joke.gd
+res://scenes/stage.tscn
+res://scripts/headline.gd
+res://scenes/main_menu.tscn
+res://scripts/Global.gd
+res://scripts/game_state.gd
