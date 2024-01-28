@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dbe5xtt5d8rde"
+path="res://.godot/imported/disco ggj2024.mp3-73ec03035da1660a69cc2a520b935a40.mp3str"
+
+[deps]
+
+source_file="res://audio/disco ggj2024.mp3"
+dest_files=["res://.godot/imported/disco ggj2024.mp3-73ec03035da1660a69cc2a520b935a40.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

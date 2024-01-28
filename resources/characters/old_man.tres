@@ -1,8 +1,35 @@
-[gd_resource type="Resource" script_class="CharacterInfo" load_steps=2 format=3 uid="uid://s6lli81baoxd"]
+[gd_resource type="Resource" script_class="CharacterInfo" load_steps=11 format=3 uid="uid://s6lli81baoxd"]
 
+[ext_resource type="Texture2D" uid="uid://d1o7xaby12wvf" path="res://sprites/character/loser/Demonioperde.png" id="1_mani3"]
+[ext_resource type="Script" path="res://scripts/headline.gd" id="1_nkw26"]
 [ext_resource type="Script" path="res://scripts/character_info.gd" id="1_rgs7e"]
+[ext_resource type="Script" path="res://scripts/perfil_info.gd" id="2_54d4e"]
+[ext_resource type="PackedScene" uid="uid://87y6mc478ibs" path="res://model/hand.glb" id="2_oali6"]
+[ext_resource type="Texture2D" uid="uid://dwpxleaslijxp" path="res://sprites/character/winner/Demoniovence.png" id="3_6vwr2"]
+[ext_resource type="Texture2D" uid="uid://cbq0g1nf44x4v" path="res://sprites/character/versus/demon_vs2.png" id="7_ukl30"]
+
+[sub_resource type="Resource" id="Resource_ehuti"]
+script = ExtResource("1_nkw26")
+title = ""
+text = ""
+image = ExtResource("1_mani3")
+
+[sub_resource type="Resource" id="Resource_x7mo4"]
+script = ExtResource("1_nkw26")
+title = ""
+text = ""
+image = ExtResource("3_6vwr2")
+
+[sub_resource type="Resource" id="Resource_mgulr"]
+script = ExtResource("2_54d4e")
+name = ""
 
 [resource]
 script = ExtResource("1_rgs7e")
-initial_joke = ""
+model = ExtResource("2_oali6")
+initial_joke = "point"
 roast_jokes = Array[String]([])
+perfil = SubResource("Resource_mgulr")
+versus_sprite = ExtResource("7_ukl30")
+headline_win = SubResource("Resource_x7mo4")
+headline_loss = SubResource("Resource_ehuti")

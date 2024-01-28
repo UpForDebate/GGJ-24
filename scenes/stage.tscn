@@ -1,3 +1,222 @@
-[gd_scene format=3 uid="uid://bajdr3i27f83a"]
+[gd_scene load_steps=15 format=3 uid="uid://bajdr3i27f83a"]
+
+[ext_resource type="Script" path="res://scripts/stage_controller.gd" id="1_juc5o"]
+[ext_resource type="Script" path="res://scripts/stage_manager.gd" id="1_xe3gk"]
+[ext_resource type="Texture2D" uid="uid://otvpouad1l02" path="res://sprites/extras/cortina_esq.png" id="2_lvhvu"]
+[ext_resource type="Texture2D" uid="uid://c6ha6is66lonv" path="res://sprites/extras/cortina_cima.png" id="2_uduig"]
+[ext_resource type="Texture2D" uid="uid://cq0jni5tcttk5" path="res://fundo.png" id="2_vt7js"]
+[ext_resource type="Texture2D" uid="uid://bsmc5b7e7vlew" path="res://sprites/extras/cortina_dir.png" id="3_2fmgb"]
+[ext_resource type="Texture2D" uid="uid://d30x40leoorfu" path="res://sprites/newspaper/file_window.png" id="3_bo845"]
+[ext_resource type="Texture2D" uid="uid://41nnuakpuyd6" path="res://mesa (1).png" id="4_cp3sv"]
+
+[sub_resource type="Gradient" id="Gradient_tvclx"]
+offsets = PackedFloat32Array(0.282983, 1)
+colors = PackedColorArray(1, 1, 1, 0.74902, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_bm3ga"]
+gradient = SubResource("Gradient_tvclx")
+width = 256
+height = 256
+fill = 1
+fill_from = Vector2(0.495726, 0.512821)
+fill_to = Vector2(0.854701, 0.217949)
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_1y2rq"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="Animation" id="Animation_vmu3x"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LeftCurtain:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 1080)]
+}
+
+[sub_resource type="Animation" id="Animation_t6p1c"]
+resource_name = "fade_in"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("LeftCurtain:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, -5), Vector2(-1000, -5)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("RightCurtain:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, -5), Vector2(1000, -5)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("UpperCurtain:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, -150)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ypqaf"]
+_data = {
+"RESET": SubResource("Animation_vmu3x"),
+"fade_in": SubResource("Animation_t6p1c")
+}
 
 [node name="Stage" type="Node3D"]
+script = ExtResource("1_xe3gk")
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+pixel_size = 0.005
+texture = ExtResource("2_vt7js")
+
+[node name="Spotlight" type="Sprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.18275, -1, 0.524893)
+texture = SubResource("GradientTexture2D_bm3ga")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+
+[node name="SpawnA" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -1, 0)
+
+[node name="SpawnB" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -1, 0)
+
+[node name="SubViewport" type="SubViewport" parent="."]
+size = Vector2i(1920, 753)
+
+[node name="JuriPOV" type="Camera3D" parent="SubViewport"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.783574, 4.817)
+projection = 1
+size = 6.53513
+
+[node name="HUD" type="Control" parent="." node_paths=PackedStringArray("SpawnA", "SpawnB", "Spotlight")]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+script = ExtResource("1_juc5o")
+SpawnA = NodePath("../SpawnA")
+SpawnB = NodePath("../SpawnB")
+Spotlight = NodePath("../Spotlight")
+
+[node name="FileButton" type="Button" parent="HUD"]
+layout_mode = 0
+offset_left = 1440.0
+offset_top = 764.0
+offset_right = 1787.0
+offset_bottom = 1082.0
+
+[node name="BigRedButton" type="TextureButton" parent="HUD"]
+layout_mode = 0
+offset_left = 1172.0
+offset_top = 876.0
+offset_right = 1335.0
+offset_bottom = 1021.0
+
+[node name="TextureRect" type="TextureRect" parent="HUD"]
+layout_mode = 0
+offset_left = -64.0
+offset_top = -10.0
+offset_right = 1966.0
+offset_bottom = 789.0
+texture = SubResource("ViewportTexture_1y2rq")
+expand_mode = 3
+
+[node name="Background" type="TextureRect" parent="HUD"]
+layout_mode = 0
+offset_top = 764.0
+offset_right = 1917.0
+offset_bottom = 1078.0
+texture = ExtResource("4_cp3sv")
+expand_mode = 2
+
+[node name="FileWindow" type="Control" parent="HUD"]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="HUD/FileWindow"]
+layout_mode = 0
+offset_right = 3840.0
+offset_bottom = 2160.0
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_bo845")
+
+[node name="FadeIn" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="FadeIn"]
+libraries = {
+"": SubResource("AnimationLibrary_ypqaf")
+}
+
+[node name="ColorRect" type="ColorRect" parent="FadeIn"]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0, 0, 0, 1)
+
+[node name="UpperCurtain" type="Sprite2D" parent="FadeIn"]
+z_index = 2
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_uduig")
+centered = false
+
+[node name="LeftCurtain" type="Sprite2D" parent="FadeIn"]
+position = Vector2(0, 1080)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_lvhvu")
+centered = false
+
+[node name="RightCurtain" type="Sprite2D" parent="FadeIn"]
+position = Vector2(0, -5)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_2fmgb")
+centered = false
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+autoplay = true
+
+[connection signal="pressed" from="HUD/FileButton" to="HUD" method="_on_file_button_pressed"]
+[connection signal="pressed" from="HUD/BigRedButton" to="HUD" method="_on_big_red_button_pressed"]
+[connection signal="animation_finished" from="FadeIn/AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

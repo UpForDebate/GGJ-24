@@ -1,8 +1,35 @@
-[gd_resource type="Resource" script_class="CharacterInfo" load_steps=2 format=3 uid="uid://bql1ictq73hgo"]
+[gd_resource type="Resource" script_class="CharacterInfo" load_steps=11 format=3 uid="uid://bql1ictq73hgo"]
 
+[ext_resource type="Texture2D" uid="uid://bgpnjnb4oke4u" path="res://sprites/character/loser/Gogperde.png" id="1_4vm0e"]
+[ext_resource type="Script" path="res://scripts/headline.gd" id="1_r67r1"]
 [ext_resource type="Script" path="res://scripts/character_info.gd" id="1_ygj36"]
+[ext_resource type="Script" path="res://scripts/perfil_info.gd" id="2_i5eho"]
+[ext_resource type="PackedScene" uid="uid://87y6mc478ibs" path="res://model/hand.glb" id="2_ncqs4"]
+[ext_resource type="Texture2D" uid="uid://ckheck5mo35" path="res://sprites/character/winner/Gogvence.png" id="3_wbns1"]
+[ext_resource type="Texture2D" uid="uid://coft0balcn37t" path="res://sprites/character/versus/cao_vs2.png" id="7_hu3ot"]
+
+[sub_resource type="Resource" id="Resource_q26hi"]
+script = ExtResource("1_r67r1")
+title = ""
+text = ""
+image = ExtResource("1_4vm0e")
+
+[sub_resource type="Resource" id="Resource_xj2af"]
+script = ExtResource("1_r67r1")
+title = ""
+text = ""
+image = ExtResource("3_wbns1")
+
+[sub_resource type="Resource" id="Resource_k0fby"]
+script = ExtResource("2_i5eho")
+name = ""
 
 [resource]
 script = ExtResource("1_ygj36")
-initial_joke = ""
+model = ExtResource("2_ncqs4")
+initial_joke = "point"
 roast_jokes = Array[String]([])
+perfil = SubResource("Resource_k0fby")
+versus_sprite = ExtResource("7_hu3ot")
+headline_win = SubResource("Resource_xj2af")
+headline_loss = SubResource("Resource_q26hi")

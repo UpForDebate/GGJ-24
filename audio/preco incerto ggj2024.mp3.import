@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://da3emnt2ujl6r"
+path="res://.godot/imported/preco incerto ggj2024.mp3-f347571d51d788ddadb7f64cc1d27e96.mp3str"
+
+[deps]
+
+source_file="res://audio/preco incerto ggj2024.mp3"
+dest_files=["res://.godot/imported/preco incerto ggj2024.mp3-f347571d51d788ddadb7f64cc1d27e96.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

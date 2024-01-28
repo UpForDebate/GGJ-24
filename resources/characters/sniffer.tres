@@ -1,8 +1,35 @@
-[gd_resource type="Resource" script_class="CharacterInfo" load_steps=2 format=3 uid="uid://dus6nyte2is8i"]
+[gd_resource type="Resource" script_class="CharacterInfo" load_steps=11 format=3 uid="uid://dus6nyte2is8i"]
 
+[ext_resource type="Script" path="res://scripts/headline.gd" id="1_a7g4i"]
+[ext_resource type="Texture2D" uid="uid://dmc503i4ktimb" path="res://sprites/character/loser/Snifasperde.png" id="1_evjcs"]
 [ext_resource type="Script" path="res://scripts/character_info.gd" id="1_t3j6m"]
+[ext_resource type="Script" path="res://scripts/perfil_info.gd" id="2_ufhm2"]
+[ext_resource type="PackedScene" uid="uid://87y6mc478ibs" path="res://model/hand.glb" id="2_wakqv"]
+[ext_resource type="Texture2D" uid="uid://btppuda4qot0q" path="res://sprites/character/winner/Snifasvence.png" id="3_oklcb"]
+[ext_resource type="Texture2D" uid="uid://bgje3fp1pu5g6" path="res://sprites/character/versus/sniffer_vs_2.png" id="7_5314x"]
+
+[sub_resource type="Resource" id="Resource_6yvwu"]
+script = ExtResource("1_a7g4i")
+title = ""
+text = ""
+image = ExtResource("1_evjcs")
+
+[sub_resource type="Resource" id="Resource_exn5k"]
+script = ExtResource("1_a7g4i")
+title = ""
+text = ""
+image = ExtResource("3_oklcb")
+
+[sub_resource type="Resource" id="Resource_d8til"]
+script = ExtResource("2_ufhm2")
+name = ""
 
 [resource]
 script = ExtResource("1_t3j6m")
-initial_joke = ""
+model = ExtResource("2_wakqv")
+initial_joke = "point"
 roast_jokes = Array[String]([])
+perfil = SubResource("Resource_d8til")
+versus_sprite = ExtResource("7_5314x")
+headline_win = SubResource("Resource_exn5k")
+headline_loss = SubResource("Resource_6yvwu")

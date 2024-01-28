@@ -1,0 +1,15 @@
+[gd_scene load_steps=7 format=3 uid="uid://bn3dlcnhkk8bd"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_liwqx"]
+[ext_resource type="Script" path="res://scripts/buzzLightsController.gd" id="2_ah3bs"]
+[ext_resource type="Resource" uid="uid://dxcdt080q0ytl" path="res://resources/characters/jon.tres" id="2_gmk34"]
+[ext_resource type="Resource" uid="uid://s6lli81baoxd" path="res://resources/characters/old_man.tres" id="3_4ue4w"]
+[ext_resource type="Resource" uid="uid://dus6nyte2is8i" path="res://resources/characters/sniffer.tres" id="4_ej5k6"]
+[ext_resource type="Resource" uid="uid://bql1ictq73hgo" path="res://resources/characters/watermelon_dog.tres" id="5_k6gls"]
+
+[node name="main" type="Node"]
+script = ExtResource("1_liwqx")
+characters = Array[Resource("res://scripts/character_info.gd")]([ExtResource("2_gmk34"), ExtResource("3_4ue4w"), ExtResource("4_ej5k6"), ExtResource("5_k6gls")])
+
+[node name="Buzz" type="Node" parent="."]
+script = ExtResource("2_ah3bs")
