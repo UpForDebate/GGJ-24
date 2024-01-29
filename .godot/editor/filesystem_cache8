@@ -1,10 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1706460266
+::res://::1706463368
+export_presets.cfg::TextFile::-1::1706460952::0::1::::<><>::
 fundo.png::CompressedTexture2D::5948042445099524950::1706459833::1706459841::1::::<><>::
 icon.png::CompressedTexture2D::8434391999864484033::1706215701::1706215707::1::::<><>::
 mesa (1).png::CompressedTexture2D::2089963874277437109::1706459984::1706459985::1::::<><>::
 mesa.png::CompressedTexture2D::2460110738018899856::1706459470::1706459499::1::::<><>::
-WM_Dog_melancia2.png::CompressedTexture2D::2274021030904020557::1706460242::1706460243::1::::<><>::
 ::res://addons/::1706347430
 ::res://addons/hid/::1706347430
 hid.gdextension::GDExtension::-1::1702885680::0::1::::<><>::
@@ -14,38 +14,57 @@ aggro disco.mp3::AudioStreamMP3::2971627795706605033::1706457499::1706457499::1:
 bossa.mp3::AudioStreamMP3::4664025418962508123::1706457504::1706457504::1::::<><>::
 disco ggj2024.mp3::AudioStreamMP3::7239572017439706342::1706457516::1706457516::1::::<><>::
 preco incerto ggj2024.mp3::AudioStreamMP3::7217329639099587971::1706457522::1706457522::1::::<><>::
-::res://model/::1706460266
+::res://build/::1706460951
+::res://model/::1706461821
 hand.glb::PackedScene::2383805130353935356::1706442270::1706444694::1::::<><>::
+Jester.glb::PackedScene::3128746918972118948::1706461821::1706461821::1::::<><>::
+Marionette.glb::PackedScene::8196432942065001515::1706461821::1706461821::1::::<><>::
+Sniffer.glb::PackedScene::4874816496337583455::1706461821::1706461821::1::::<><>::
+WM_Dog.glb::PackedScene::2854973333172526244::1706460242::1706460448::1::::<><>::uid://bcu6fv23jaitx
 WM_Dog_melancia2.png::CompressedTexture2D::2569978227779947277::1706460267::1706460268::1::::<><>::
-WM_Dog.glb::PackedScene::2854973333172526244::0::0::1::::<><>::
 ::res://resources/::1706316473
-::res://resources/characters/::1706456089
-jon.tres::Resource/CharacterInfo::8777951656545237273::1706456044::0::1::::<><>::res://scripts/character_info.gd<>res://scripts/headline.gd<>uid://cc1tf88bir4ob::::res://sprites/character/loser/Jonperde.png<>uid://87y6mc478ibs::::res://model/hand.glb<>res://scripts/perfil_info.gd<>uid://cgy3lqbt35f1l::::res://sprites/character/winner/Jonvence.png<>uid://crtg6u831wyg5::::res://sprites/character/versus/jon_vs_2.png
-old_man.tres::Resource/CharacterInfo::1328082898861842137::1706456089::0::1::::<><>::uid://d1o7xaby12wvf::::res://sprites/character/loser/Demonioperde.png<>res://scripts/headline.gd<>res://scripts/character_info.gd<>res://scripts/perfil_info.gd<>uid://87y6mc478ibs::::res://model/hand.glb<>uid://dwpxleaslijxp::::res://sprites/character/winner/Demoniovence.png<>uid://cbq0g1nf44x4v::::res://sprites/character/versus/demon_vs2.png
-sniffer.tres::Resource/CharacterInfo::8602104455639397346::1706456089::0::1::::<><>::res://scripts/headline.gd<>uid://dmc503i4ktimb::::res://sprites/character/loser/Snifasperde.png<>res://scripts/character_info.gd<>res://scripts/perfil_info.gd<>uid://87y6mc478ibs::::res://model/hand.glb<>uid://btppuda4qot0q::::res://sprites/character/winner/Snifasvence.png<>uid://bgje3fp1pu5g6::::res://sprites/character/versus/sniffer_vs_2.png
-watermelon_dog.tres::Resource/CharacterInfo::3533743400528266518::1706456089::0::1::::<><>::uid://bgpnjnb4oke4u::::res://sprites/character/loser/Gogperde.png<>res://scripts/headline.gd<>res://scripts/character_info.gd<>res://scripts/perfil_info.gd<>uid://87y6mc478ibs::::res://model/hand.glb<>uid://ckheck5mo35::::res://sprites/character/winner/Gogvence.png<>uid://coft0balcn37t::::res://sprites/character/versus/cao_vs2.png
-::res://scenes/::1706460016
-main.tscn::PackedScene::3356880148273449273::1706460015::0::1::::<><>::res://scripts/main.gd<>res://scripts/buzzLightsController.gd<>uid://dxcdt080q0ytl::::res://resources/characters/jon.tres<>uid://s6lli81baoxd::::res://resources/characters/old_man.tres<>uid://dus6nyte2is8i::::res://resources/characters/sniffer.tres<>uid://bql1ictq73hgo::::res://resources/characters/watermelon_dog.tres
-main_menu.tscn::PackedScene::3978676489367978659::1706460016::0::1::::<><>::res://scripts/menuButtons.gd<>uid://da3emnt2ujl6r::::res://audio/preco incerto ggj2024.mp3<>uid://bo56p42cs1qsp::::res://sprites/main_menu.png
-newspaper.tscn::PackedScene::8538310694375356507::1706460015::0::1::::<><>::res://scripts/newspaper.gd<>uid://bi5ntphtfk37k::::res://sprites/newspaper/Jornalvencedorperdedor.png<>uid://b7pj21yk0yykx::::res://audio/bossa.mp3
-stage.tscn::PackedScene::2405214077236315844::1706460015::0::1::::<><>::res://scripts/stage_controller.gd<>res://scripts/stage_manager.gd<>uid://otvpouad1l02::::res://sprites/extras/cortina_esq.png<>uid://c6ha6is66lonv::::res://sprites/extras/cortina_cima.png<>uid://cq0jni5tcttk5::::res://fundo.png<>uid://bsmc5b7e7vlew::::res://sprites/extras/cortina_dir.png<>uid://d30x40leoorfu::::res://sprites/newspaper/file_window.png<>uid://41nnuakpuyd6::::res://mesa (1).png
-vsscreen.tscn::PackedScene::2033345839913434882::1706460016::0::1::::<><>::res://scripts/vsscreen.gd<>uid://cv81gawplp0bu::::res://sprites/newspaper/vsjornal.png<>uid://b7pj21yk0yykx::::res://audio/bossa.mp3
+::res://resources/characters/::1706460681
+jon.tres::Resource/CharacterInfo::8777951656545237273::1706460681::0::1::::<><>::res://scripts/character_info.gd<>res://scripts/headline.gd<>uid://cc1tf88bir4ob::::res://sprites/character/loser/Jonperde.png<>uid://87y6mc478ibs::::res://model/hand.glb<>res://scripts/perfil_info.gd<>uid://cgy3lqbt35f1l::::res://sprites/character/winner/Jonvence.png<>uid://crtg6u831wyg5::::res://sprites/character/versus/jon_vs_2.png
+old_man.tres::Resource/CharacterInfo::1328082898861842137::1706460681::0::1::::<><>::uid://d1o7xaby12wvf::::res://sprites/character/loser/Demonioperde.png<>res://scripts/headline.gd<>res://scripts/character_info.gd<>res://scripts/perfil_info.gd<>uid://87y6mc478ibs::::res://model/hand.glb<>uid://dwpxleaslijxp::::res://sprites/character/winner/Demoniovence.png<>uid://cbq0g1nf44x4v::::res://sprites/character/versus/demon_vs2.png
+sniffer.tres::Resource/CharacterInfo::8602104455639397346::1706460681::0::1::::<><>::res://scripts/headline.gd<>uid://dmc503i4ktimb::::res://sprites/character/loser/Snifasperde.png<>res://scripts/character_info.gd<>res://scripts/perfil_info.gd<>uid://87y6mc478ibs::::res://model/hand.glb<>uid://btppuda4qot0q::::res://sprites/character/winner/Snifasvence.png<>uid://bgje3fp1pu5g6::::res://sprites/character/versus/sniffer_vs_2.png
+watermelon_dog.tres::Resource/CharacterInfo::3533743400528266518::1706460681::0::1::::<><>::uid://bgpnjnb4oke4u::::res://sprites/character/loser/Gogperde.png<>res://scripts/headline.gd<>res://scripts/character_info.gd<>res://scripts/perfil_info.gd<>uid://87y6mc478ibs::::res://model/hand.glb<>uid://ckheck5mo35::::res://sprites/character/winner/Gogvence.png<>uid://coft0balcn37t::::res://sprites/character/versus/cao_vs2.png
+::res://scenes/::1706461976
+main.tscn::PackedScene::3356880148273449273::1706461976::0::1::::<><>::res://scripts/main.gd<>res://scripts/buzzLightsController.gd<>uid://dxcdt080q0ytl::::res://resources/characters/jon.tres<>uid://s6lli81baoxd::::res://resources/characters/old_man.tres<>uid://dus6nyte2is8i::::res://resources/characters/sniffer.tres<>uid://bql1ictq73hgo::::res://resources/characters/watermelon_dog.tres
+main_menu.tscn::PackedScene::3978676489367978659::1706461976::0::1::::<><>::res://scripts/menuButtons.gd<>uid://da3emnt2ujl6r::::res://audio/preco incerto ggj2024.mp3<>uid://bo56p42cs1qsp::::res://sprites/main_menu.png
+newspaper.tscn::PackedScene::8538310694375356507::1706461976::0::1::::<><>::res://scripts/newspaper.gd<>uid://bi5ntphtfk37k::::res://sprites/newspaper/Jornalvencedorperdedor.png<>uid://b7pj21yk0yykx::::res://audio/bossa.mp3
+stage.tscn::PackedScene::2405214077236315844::1706461976::0::1::::<><>::res://scripts/stage_controller.gd<>res://scripts/stage_manager.gd<>uid://otvpouad1l02::::res://sprites/extras/cortina_esq.png<>uid://c6ha6is66lonv::::res://sprites/extras/cortina_cima.png<>uid://cq0jni5tcttk5::::res://fundo.png<>uid://bsmc5b7e7vlew::::res://sprites/extras/cortina_dir.png<>uid://d30x40leoorfu::::res://sprites/newspaper/file_window.png<>uid://41nnuakpuyd6::::res://mesa (1).png
+vsscreen.tscn::PackedScene::2033345839913434882::1706461976::0::1::::<><>::res://scripts/vsscreen.gd<>uid://cv81gawplp0bu::::res://sprites/newspaper/vsjornal.png<>uid://b7pj21yk0yykx::::res://audio/bossa.mp3
 ::res://scenes/characters_animations/::1706314780
-::res://scripts/::1706459394
+::res://scripts/::1706460641
 buzzLightsController.gd::GDScript::-1::1706446399::0::1::::<>Node<>::
-character_info.gd::GDScript::-1::1706432244::0::1::::CharacterInfo<>Resource<>::
+character_info.gd::GDScript::-1::1706460513::0::1::::CharacterInfo<>Resource<>::
 Global.gd::GDScript::-1::1706441419::0::1::::<>Node<>::
 headline.gd::GDScript::-1::1706434105::0::1::::Headline<>Resource<>::
 main.gd::GDScript::-1::1706458549::0::1::::<>Node<>::
 menuButtons.gd::GDScript::-1::1706457215::0::1::::<>Node<>::
 newspaper.gd::GDScript::-1::1706457683::0::1::::<>Node2D<>::
 perfil_info.gd::GDScript::-1::1706320633::0::1::::PerfilInfo<>Resource<>::
-stage_controller.gd::GDScript::-1::1706458327::0::1::::<>Control<>::
-stage_manager.gd::GDScript::-1::1706458239::0::1::::<>Node3D<>::
+stage_controller.gd::GDScript::-1::1706460612::0::1::::<>Control<>::
+stage_manager.gd::GDScript::-1::1706460641::0::1::::<>Node3D<>::
 vsscreen.gd::GDScript::-1::1706459394::0::1::::<>Node2D<>::
-::res://sprites/::1706458885
+::res://sprites/::1706461616
 main_menu.png::CompressedTexture2D::3432906405934520867::1706458877::1706458885::1::::<><>::
-::res://sprites/character/::1706456012
+::res://sprites/character/::1706463428
+::res://sprites/character/faces/::1706463449
+Dog_closedeyesFace_UV.png::CompressedTexture2D::1118297218527235653::1706463449::1706463449::1::::<><>::
+Dog_happyFace_UV.png::CompressedTexture2D::1041558115372392475::1706463449::1706463449::1::::<><>::
+Dog_normalFace_UV.png::CompressedTexture2D::7230815127355410201::1706463449::1706463449::1::::<><>::
+Dog_seriousFace_UV.png::CompressedTexture2D::4189930862066575911::1706463449::1706463449::1::::<><>::
+Marionette_closedeyesFace_transparent_UV.png::CompressedTexture2D::5238081026581035072::1706463449::1706463449::1::::<><>::
+Marionette_depressedFace_transparent_UV.png::CompressedTexture2D::2279656847888253770::1706463449::1706463449::1::::<><>::
+Marionette_explosionFace_transparent_UV.png::CompressedTexture2D::3302703245739486930::1706463449::1706463449::1::::<><>::
+Sniffer_closedeyesFace_UV.png::CompressedTexture2D::4781631186445209223::1706463449::1706463449::1::::<><>::
+Sniffer_normalFace_UV.png::CompressedTexture2D::1308514652003502540::1706463449::1706463449::1::::<><>::
+Sniffer_sadFace_UV.png::CompressedTexture2D::8997933024714990309::1706463449::1706463449::1::::<><>::
+Sniffer_snifFace_UV.png::CompressedTexture2D::1413528677713817277::1706463449::1706463449::1::::<><>::
+Staff_distressFace_UV.png::CompressedTexture2D::2289664380131586594::1706463449::1706463449::1::::<><>::
+Staff_happyFace_UV.png::CompressedTexture2D::1898551715629888535::1706463449::1706463449::1::::<><>::
+Staff_sadFace_UV.png::CompressedTexture2D::5624864795449848416::1706463449::1706463449::1::::<><>::
 ::res://sprites/character/loser/::1706456030
 Demonioperde.png::CompressedTexture2D::9015057293924408159::1706456029::1706456030::1::::<><>::
 Gogperde.png::CompressedTexture2D::2839325490568391054::1706456029::1706456030::1::::<><>::
@@ -65,7 +84,7 @@ Snifasvence.png::CompressedTexture2D::3751921008805840062::1706455927::170645594
 cortina_cima.png::CompressedTexture2D::6963201973498330415::1706401289::1706401329::1::::<><>::
 cortina_dir.png::CompressedTexture2D::3674767512211515250::1706401305::1706401329::1::::<><>::
 cortina_esq.png::CompressedTexture2D::1023169598244293145::1706402963::1706402969::1::::<><>::
-::res://sprites/newspaper/::1706455957
+::res://sprites/newspaper/::1706461621
 file_window.png::CompressedTexture2D::9177608725930197650::1706454504::1706454516::1::::<><>::
-Jornalvencedorperdedor.png::CompressedTexture2D::3010686815943574778::1706455927::1706455957::1::::<><>::
+Jornalvencedorperdedor.png::CompressedTexture2D::3010686815943574778::1706460222::1706461621::1::::<><>::
 vsjornal.png::CompressedTexture2D::6316520940926758946::1706437663::1706437667::1::::<><>::

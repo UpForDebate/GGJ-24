@@ -161,6 +161,7 @@ layout_mode = 0
 offset_top = 764.0
 offset_right = 1917.0
 offset_bottom = 1078.0
+mouse_filter = 2
 texture = ExtResource("4_cp3sv")
 expand_mode = 2
 
@@ -176,6 +177,7 @@ layout_mode = 0
 offset_right = 3840.0
 offset_bottom = 2160.0
 scale = Vector2(0.5, 0.5)
+mouse_filter = 2
 texture = ExtResource("3_bo845")
 
 [node name="FadeIn" type="Control" parent="."]
