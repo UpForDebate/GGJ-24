@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://dt6wh7ei2bt3"]
+
+[ext_resource type="Texture2D" uid="uid://cmeyx317ycgyi" path="res://sprites/character/faces/Staff_sadFace_UV.png" id="1_m3tm6"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vgyqd"]
+transparency = 1
+shading_mode = 0
+albedo_texture = ExtResource("1_m3tm6")
+
+[resource]
+resource_name = "face"
+next_pass = SubResource("StandardMaterial3D_vgyqd")
+diffuse_mode = 3
+specular_mode = 1
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.906332, 0.906332, 0.906332, 1)
+roughness = 0.0

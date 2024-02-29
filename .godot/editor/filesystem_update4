@@ -1,9 +1,22 @@
-res://scenes/stage.tscn
-res://resources/characters/jon.tres
-res://resources/characters/old_man.tres
-res://resources/characters/sniffer.tres
-res://resources/characters/watermelon_dog.tres
-res://scenes/newspaper.tscn
-res://scenes/main.tscn
-res://scenes/vsscreen.tscn
-res://scenes/main_menu.tscn
+res://scenes/characters_animations/wm_dog.tscn
+res://resources/materials/doggo/Dog_Face_Closed.tres
+res://resources/materials/doggo/Dog_Nose.001.tres
+res://resources/materials/doggo/Dog_Watermelon.001.tres
+res://resources/materials/doggo/melancia.tres
+res://resources/materials/doggo/Dog_Body.001.tres
+res://resources/materials/jester/face.tres
+res://resources/materials/jester/body.tres
+res://resources/materials/jester/foot.tres
+res://resources/materials/jester/bells.tres
+res://resources/materials/jon/hat.tres
+res://resources/materials/jon/madeira.tres
+res://resources/materials/jon/Face_MRNTT.tres
+res://resources/materials/jon/laço.tres
+res://resources/materials/jon/roupa.tres
+res://resources/materials/jon/Box Inside.001.tres
+res://resources/materials/jon/Box Outside.001.tres
+res://resources/materials/sniffer/cabeca.tres
+res://resources/materials/sniffer/Material.tres
+res://resources/materials/sniffer/Ourside Can.001.tres
+res://resources/materials/sniffer/Paint.001.tres
+res://resources/materials/sniffer/camisola.tres

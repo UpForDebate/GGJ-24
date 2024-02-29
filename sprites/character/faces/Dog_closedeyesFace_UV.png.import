@@ -3,19 +3,20 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://p6ygrywonm5r"
-path="res://.godot/imported/Dog_closedeyesFace_UV.png-3edbeff6cd488a7ac7b293aec8baa8cf.ctex"
+path.s3tc="res://.godot/imported/Dog_closedeyesFace_UV.png-3edbeff6cd488a7ac7b293aec8baa8cf.s3tc.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://sprites/character/faces/Dog_closedeyesFace_UV.png"
-dest_files=["res://.godot/imported/Dog_closedeyesFace_UV.png-3edbeff6cd488a7ac7b293aec8baa8cf.ctex"]
+dest_files=["res://.godot/imported/Dog_closedeyesFace_UV.png-3edbeff6cd488a7ac7b293aec8baa8cf.s3tc.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

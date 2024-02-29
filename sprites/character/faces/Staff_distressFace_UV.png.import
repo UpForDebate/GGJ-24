@@ -2,7 +2,7 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://7veo5d7dr267"
+uid="uid://c1l1w7hfaglm0"
 path="res://.godot/imported/Staff_distressFace_UV.png-f0c7497d3171cea758e2d719eef1c751.ctex"
 metadata={
 "vram_texture": false
@@ -31,4 +31,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=1
+detect_3d/compress_to=0

@@ -28,5 +28,24 @@ animation/fps=30
 animation/trimming=false
 animation/remove_immutable_tracks=true
 import_script/path=""
-_subresources={}
+_subresources={
+"materials": {
+"bells": {
+"use_external/enabled": true,
+"use_external/path": "res://resources/materials/jester/bells.tres"
+},
+"body": {
+"use_external/enabled": true,
+"use_external/path": "res://resources/materials/jester/body.tres"
+},
+"face": {
+"use_external/enabled": true,
+"use_external/path": "res://resources/materials/jester/face.tres"
+},
+"foot": {
+"use_external/enabled": true,
+"use_external/path": "res://resources/materials/jester/foot.tres"
+}
+}
+}
 gltf/embedded_image_handling=1

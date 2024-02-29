@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cnbgsapf1p6u6"]
+
+[resource]
+resource_name = "Dog_Body.001"
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+vertex_color_use_as_albedo = true
+albedo_color = Color(1, 0.98193, 0.987482, 1)
+roughness = 0.0

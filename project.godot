@@ -29,6 +29,12 @@ window/size/mode=3
 
 project/assembly_name="Ggj-24"
 
+[importer_defaults]
+
+texture={
+"detect_3d/compress_to": 0
+}
+
 [input]
 
 Eliminate={
@@ -61,3 +67,22 @@ Check_Info={
 
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+
+[shader_globals]
+
+specular_smoothness={
+"type": "float",
+"value": 0.05
+}
+fresnel_smoothness={
+"type": "float",
+"value": 0.05
+}
+outline_width={
+"type": "float",
+"value": 4.0
+}
+outline_color={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}

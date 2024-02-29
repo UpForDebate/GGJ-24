@@ -28,5 +28,28 @@ animation/fps=30
 animation/trimming=false
 animation/remove_immutable_tracks=true
 import_script/path=""
-_subresources={}
+_subresources={
+"materials": {
+"Dog_Body.001": {
+"use_external/enabled": true,
+"use_external/path": "res://resources/materials/doggo/Dog_Body.001.tres"
+},
+"Dog_Face": {
+"use_external/enabled": true,
+"use_external/path": "res://resources/materials/doggo/Dog_Face.tres"
+},
+"Dog_Nose.001": {
+"use_external/enabled": true,
+"use_external/path": "res://resources/materials/doggo/Dog_Nose.001.tres"
+},
+"Dog_Watermelon.001": {
+"use_external/enabled": true,
+"use_external/path": "res://resources/materials/doggo/Dog_Watermelon.001.tres"
+},
+"melancia": {
+"use_external/enabled": true,
+"use_external/path": "res://resources/materials/doggo/melancia.tres"
+}
+}
+}
 gltf/embedded_image_handling=1

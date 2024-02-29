@@ -4,8 +4,8 @@
 [ext_resource type="Script" path="res://scripts/headline.gd" id="1_nkw26"]
 [ext_resource type="Script" path="res://scripts/character_info.gd" id="1_rgs7e"]
 [ext_resource type="Script" path="res://scripts/perfil_info.gd" id="2_54d4e"]
-[ext_resource type="PackedScene" uid="uid://87y6mc478ibs" path="res://model/hand.glb" id="2_oali6"]
 [ext_resource type="Texture2D" uid="uid://dwpxleaslijxp" path="res://sprites/character/winner/Demoniovence.png" id="3_6vwr2"]
+[ext_resource type="PackedScene" uid="uid://cgsragxwyja78" path="res://scenes/characters_animations/jester.tscn" id="4_5tfwa"]
 [ext_resource type="Texture2D" uid="uid://cbq0g1nf44x4v" path="res://sprites/character/versus/demon_vs2.png" id="7_ukl30"]
 
 [sub_resource type="Resource" id="Resource_ehuti"]
@@ -26,8 +26,8 @@ name = ""
 
 [resource]
 script = ExtResource("1_rgs7e")
-model = ExtResource("2_oali6")
-initial_joke = "point"
+model = ExtResource("4_5tfwa")
+initial_joke = "Joke"
 roast_jokes = Array[String]([])
 perfil = SubResource("Resource_mgulr")
 versus_sprite = ExtResource("7_ukl30")

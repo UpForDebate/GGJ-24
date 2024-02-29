@@ -28,5 +28,36 @@ animation/fps=30
 animation/trimming=false
 animation/remove_immutable_tracks=true
 import_script/path=""
-_subresources={}
+_subresources={
+"materials": {
+"Box Inside.001": {
+"use_external/enabled": true,
+"use_external/path": "res://resources/materials/jon/Box Inside.001.tres"
+},
+"Box Outside.001": {
+"use_external/enabled": true,
+"use_external/path": "res://resources/materials/jon/Box Outside.001.tres"
+},
+"Face_MRNTT": {
+"use_external/enabled": true,
+"use_external/path": "res://resources/materials/jon/Face_MRNTT.tres"
+},
+"hat": {
+"use_external/enabled": true,
+"use_external/path": "res://resources/materials/jon/hat.tres"
+},
+"laço": {
+"use_external/enabled": true,
+"use_external/path": "res://resources/materials/jon/laço.tres"
+},
+"madeira": {
+"use_external/enabled": true,
+"use_external/path": "res://resources/materials/jon/madeira.tres"
+},
+"roupa": {
+"use_external/enabled": true,
+"use_external/path": "res://resources/materials/jon/roupa.tres"
+}
+}
+}
 gltf/embedded_image_handling=1

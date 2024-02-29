@@ -15,6 +15,7 @@ func _ready():
 	get_parent().get_node("FadeIn/AnimationPlayer").play("fade_in")
 	updateFileWindow()
 	set_process(false)
+	change_selection($"../SpawnA")
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -26,16 +27,16 @@ func _process(delta):
 		_on_file_button_pressed()
 		
 	if Input.is_action_just_pressed("Select_A"):
-		change_selection($"../SpawnA")
+		_on_select_a_button_pressed()
 		
 	if Input.is_action_just_pressed("Select_B"):
-		change_selection($"../SpawnB")
+		_on_select_b_button_pressed()
 		
 	if Input.is_action_just_pressed("Replay_Joke"):
-		replay_joke(selected_char)
+		_on_mic_button_pressed()
 
 func replay_joke(selected: Node3D):
-	selected.get_child(0).get_node("AnimationPlayer").play("point")
+	selected.get_child(0).get_node("AnimationPlayer").play("Joke")
 
 func change_selection (selected :Node3D):
 	selected_char = selected
@@ -56,23 +57,23 @@ func _on_big_red_button_pressed():
 	
 	if Game.state == 0:
 		if selected_char == $"../SpawnA" :
-			Game.RoastPair[0] = Game.charMatchup[0]
-			news.updateNewspaper( Game.charPool[Game.charMatchup[0]], Game.charPool[Game.charMatchup[1]])
-		else:
 			Game.RoastPair[0] = Game.charMatchup[1]
-			news.updateNewspaper(Game.charPool[Game.charMatchup[1]], Game.charPool[Game.charMatchup[0]])
+			news.updateNewspaper( Game.charPool[Game.charMatchup[1]], Game.charPool[Game.charMatchup[0]])
+		else:
+			Game.RoastPair[0] = Game.charMatchup[0]
+			news.updateNewspaper(Game.charPool[Game.charMatchup[0]], Game.charPool[Game.charMatchup[1]])
 	else: if Game.state == 1:
 		if selected_char == $"../SpawnA" :
-			Game.RoastPair[1] = Game.charMatchup[2]
-			news.updateNewspaper( Game.charPool[Game.charMatchup[2]], Game.charPool[Game.charMatchup[3]])
-		else:
 			Game.RoastPair[1] = Game.charMatchup[3]
-			news.updateNewspaper(Game.charPool[Game.charMatchup[3]], Game.charPool[Game.charMatchup[2]])
+			news.updateNewspaper( Game.charPool[Game.charMatchup[3]], Game.charPool[Game.charMatchup[2]])
+		else:
+			Game.RoastPair[1] = Game.charMatchup[2]
+			news.updateNewspaper(Game.charPool[Game.charMatchup[2]], Game.charPool[Game.charMatchup[3]])
 	else: if Game.state == 2:
 		if selected_char == $"../SpawnA" :
-			news.updateNewspaper( Game.charPool[Game.RoastPair[0]], Game.charPool[Game.RoastPair[1]])
+			news.updateNewspaper( Game.charPool[Game.RoastPair[1]], Game.charPool[Game.RoastPair[0]])
 		else:
-			news.updateNewspaper(Game.charPool[Game.RoastPair[1]], Game.charPool[Game.RoastPair[0]])
+			news.updateNewspaper(Game.charPool[Game.RoastPair[0]], Game.charPool[Game.RoastPair[1]])
 		Game.RoastPair.clear()
 	Game.state = (Game.state + 1) % 3
 	
@@ -82,3 +83,15 @@ func _on_big_red_button_pressed():
 func _on_file_button_pressed():
 	$FileWindow.visible = !$FileWindow.visible
 
+
+
+func _on_mic_button_pressed():
+	replay_joke(selected_char)
+
+
+func _on_select_a_button_pressed():
+	change_selection($"../SpawnA")
+
+
+func _on_select_b_button_pressed():
+	change_selection($"../SpawnB")

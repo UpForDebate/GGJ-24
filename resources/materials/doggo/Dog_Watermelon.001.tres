@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://djktygwfog6t3"]
+
+[ext_resource type="Texture2D" uid="uid://bcu6fv23jaitx" path="res://model/WM_Dog_melancia2.png" id="1_yby3v"]
+
+[resource]
+resource_name = "Dog_Watermelon.001"
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_yby3v")
+roughness = 0.0

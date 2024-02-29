@@ -3,9 +3,9 @@
 [ext_resource type="Script" path="res://scripts/character_info.gd" id="1_5qa7j"]
 [ext_resource type="Script" path="res://scripts/headline.gd" id="1_asuvd"]
 [ext_resource type="Texture2D" uid="uid://cc1tf88bir4ob" path="res://sprites/character/loser/Jonperde.png" id="1_s8vkd"]
-[ext_resource type="PackedScene" uid="uid://87y6mc478ibs" path="res://model/hand.glb" id="2_avotf"]
 [ext_resource type="Script" path="res://scripts/perfil_info.gd" id="2_tgcq6"]
 [ext_resource type="Texture2D" uid="uid://cgy3lqbt35f1l" path="res://sprites/character/winner/Jonvence.png" id="3_a6msq"]
+[ext_resource type="PackedScene" uid="uid://bxxsupb45rx3i" path="res://scenes/characters_animations/marionette.tscn" id="4_tqjec"]
 [ext_resource type="Texture2D" uid="uid://crtg6u831wyg5" path="res://sprites/character/versus/jon_vs_2.png" id="7_jdll7"]
 
 [sub_resource type="Resource" id="Resource_3gvjp"]
@@ -26,8 +26,8 @@ name = "Jon"
 
 [resource]
 script = ExtResource("1_5qa7j")
-model = ExtResource("2_avotf")
-initial_joke = "point"
+model = ExtResource("4_tqjec")
+initial_joke = "Joke"
 roast_jokes = Array[String]([])
 perfil = SubResource("Resource_tjj3k")
 versus_sprite = ExtResource("7_jdll7")

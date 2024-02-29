@@ -1,9 +1,37 @@
-res://resources/characters/jon.tres::b4bef51e2f1a69af8803e7e923c013a3::1706460681::res://.godot/exported/133200997/export-9a221adf41f095dc4c4b6b639aaccf9c-jon.res
-res://resources/characters/old_man.tres::0ca319136db69ef30617b8ac01f5b48c::1706460681::res://.godot/exported/133200997/export-2a88759d43abce24baecd1c289994e1c-old_man.res
-res://resources/characters/sniffer.tres::a14e626c3a2a140a585144c81d1d7eb3::1706460681::res://.godot/exported/133200997/export-9f1217778e9707cb3a6c74a59229a5d0-sniffer.res
-res://resources/characters/watermelon_dog.tres::2c470434fc8dc34eb626f164380c0b31::1706460681::res://.godot/exported/133200997/export-7e550910690e020e8e0ab73a2c0745a4-watermelon_dog.res
-res://scenes/main.tscn::1abf9afe0c75ab09ca15354d930b2339::1706460416::res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
-res://scenes/main_menu.tscn::1d1e0ca08ca2d4f931469eccc331be23::1706460713::res://.godot/exported/133200997/export-ea5c6ad4629af728dc514cefde332394-main_menu.scn
-res://scenes/newspaper.tscn::6253545bb277b8e35cede32f0dbc6b03::1706460416::res://.godot/exported/133200997/export-3fb61131ba96155df5504b8d526c1016-newspaper.scn
-res://scenes/stage.tscn::e78230aaabcca6d10583f69b75a612b0::1706460745::res://.godot/exported/133200997/export-6d0c05af89768d4ee0de197e8c576f84-stage.scn
-res://scenes/vsscreen.tscn::401d6c9aeef698f09df8979786f59c2b::1706460416::res://.godot/exported/133200997/export-4d1ee45a2c1030311393006ed0faa6d5-vsscreen.scn
+res://resources/characters/jon.tres::7ed6243008c66c3a0d3556c6fa539e8e::1709129780::res://.godot/exported/133200997/export-9a221adf41f095dc4c4b6b639aaccf9c-jon.res
+res://resources/characters/old_man.tres::a226ac0b7249d6200afcab9d5c6d6ddf::1709129780::res://.godot/exported/133200997/export-2a88759d43abce24baecd1c289994e1c-old_man.res
+res://resources/characters/sniffer.tres::d319856941b2842a43e14194ae0c8e84::1709129780::res://.godot/exported/133200997/export-9f1217778e9707cb3a6c74a59229a5d0-sniffer.res
+res://resources/characters/watermelon_dog.tres::7aba3c0cadd6196fc8b50250875f1712::1709135536::res://.godot/exported/133200997/export-7e550910690e020e8e0ab73a2c0745a4-watermelon_dog.res
+res://scenes/main.tscn::1abf9afe0c75ab09ca15354d930b2339::1709211473::res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
+res://scenes/main_menu.tscn::1d1e0ca08ca2d4f931469eccc331be23::1709211473::res://.godot/exported/133200997/export-ea5c6ad4629af728dc514cefde332394-main_menu.scn
+res://scenes/newspaper.tscn::6253545bb277b8e35cede32f0dbc6b03::1709211473::res://.godot/exported/133200997/export-3fb61131ba96155df5504b8d526c1016-newspaper.scn
+res://scenes/stage.tscn::9e29ed2a9bcadc06e774c0097433909d::1709211473::res://.godot/exported/133200997/export-6d0c05af89768d4ee0de197e8c576f84-stage.scn
+res://scenes/vsscreen.tscn::401d6c9aeef698f09df8979786f59c2b::1709211473::res://.godot/exported/133200997/export-4d1ee45a2c1030311393006ed0faa6d5-vsscreen.scn
+res://resources/materials/doggo/Dog_Body.001.tres::7c2c01c5b60abee4a48b4af2cf8e1f94::1709231922::res://.godot/exported/133200997/export-e121fd5a59ba4ba81b848c541d11585f-Dog_Body.001.res
+res://resources/materials/doggo/Dog_Face.tres::bb86e3b844390ea0d51ec7f098a743f9::1709129780::res://.godot/exported/133200997/export-373989daa81abbe8dc214f7307e1a2e7-Dog_Face.res
+res://resources/materials/doggo/Dog_Face_Closed.tres::39a522b9058eace70c750bd5d69483bf::1709231922::res://.godot/exported/133200997/export-668469acec34367ed720ca12826d19fa-Dog_Face_Closed.res
+res://resources/materials/doggo/Dog_Face_Happy.tres::2b15debc9a54b673f6b91328b75659d1::1709231163::res://.godot/exported/133200997/export-8e70c2e6838ef6814bf61cc973b5dab1-Dog_Face_Happy.res
+res://resources/materials/doggo/Dog_Face_sad.tres::7a807c791ca5e51c393155b4ef073cab::1709231005::res://.godot/exported/133200997/export-7dc7b845d645cbf926053507f5a7bd1f-Dog_Face_sad.res
+res://resources/materials/doggo/Dog_Nose.001.tres::3f499d762fe7e035ac4c18d242216ae5::1709231922::res://.godot/exported/133200997/export-e2424413fadf5a924dc0ff5283ae3ce4-Dog_Nose.001.res
+res://resources/materials/doggo/Dog_Watermelon.001.tres::e1ff2f2a39540605e45bfcbbe0406b4e::1709231922::res://.godot/exported/133200997/export-bd97fb54f2c0687a79b7649d0ce8f9b4-Dog_Watermelon.001.res
+res://resources/materials/doggo/melancia.tres::f2009100eb3f1f203791682104476a0a::1709231922::res://.godot/exported/133200997/export-e01ee180dcc88b11d9dab06543c427f7-melancia.res
+res://resources/materials/jester/bells.tres::3febf4fb4b18b579d45953be9dde6472::1709231922::res://.godot/exported/133200997/export-e64d383f3f7da77813c16e376390a831-bells.res
+res://resources/materials/jester/body.tres::163016417248d7c99b077035399c3ef6::1709231922::res://.godot/exported/133200997/export-95d3321694b0ff936fb67181f6deeecf-body.res
+res://resources/materials/jester/face.tres::d3f14f73c8f2a0abb00d015821b615d6::1709231922::res://.godot/exported/133200997/export-2224a856fef2ef0462225ce48cf42859-face.res
+res://resources/materials/jester/foot.tres::c0da8b75f00930a23af62b0982026ca1::1709231922::res://.godot/exported/133200997/export-27e325122e922e4d1c18136c9ae6194e-foot.res
+res://resources/materials/jon/Box Inside.001.tres::bda9b9bbe924fd89a13c77888648cc9f::1709231922::res://.godot/exported/133200997/export-bf1c3a78f4695574fa9441fcd59b246f-Box Inside.001.res
+res://resources/materials/jon/Box Outside.001.tres::f9c997d1cdea362bc24a1d7b1d9b29e6::1709231922::res://.godot/exported/133200997/export-9f77fbd4515ad4adf481a9bf01aa2071-Box Outside.001.res
+res://resources/materials/jon/Face_MRNTT.tres::0e806120f4f780060d14e19c8b800095::1709231922::res://.godot/exported/133200997/export-1f93f3c7ab40121457e9a72a0a04516a-Face_MRNTT.res
+res://resources/materials/jon/hat.tres::a46df1c1773113bfef465d88e538dfd9::1709231922::res://.godot/exported/133200997/export-27b78b4557b75041a14dae774485717f-hat.res
+res://resources/materials/jon/laço.tres::8ba1405106d530a335d073668015aa8d::1709231922::res://.godot/exported/133200997/export-14f246aa35dcbd8423817594363dd18a-laço.res
+res://resources/materials/jon/madeira.tres::8918b7d4cdc78432112e15f02a137ed2::1709231922::res://.godot/exported/133200997/export-14648a634d8cdd975480cff2f4093f04-madeira.res
+res://resources/materials/jon/roupa.tres::32df8548ddc863927002194c772f86da::1709231922::res://.godot/exported/133200997/export-9f481e3f6f5bd8cfb68dfe60c31d4eed-roupa.res
+res://resources/materials/sniffer/cabeca.tres::6d6ab74dbeae8efe65811b0afe7a1636::1709231922::res://.godot/exported/133200997/export-976da1d12035e84ab0698c74c5a3c0a4-cabeca.res
+res://resources/materials/sniffer/camisola.tres::15b5b040b916d99ad878128790016b9b::1709231922::res://.godot/exported/133200997/export-67af5d7e62296a87b35b9c6de1be5522-camisola.res
+res://resources/materials/sniffer/Material.tres::c510b89a9b4e4159140bc3d8d7218ca0::1709231922::res://.godot/exported/133200997/export-9393b2691d11f6d92bad8ad427ea8089-Material.res
+res://resources/materials/sniffer/Ourside Can.001.tres::4a02ac8699caf1817982db226ac8af66::1709231922::res://.godot/exported/133200997/export-5c9bd9c9ebd0386d826134892f64af59-Ourside Can.001.res
+res://resources/materials/sniffer/Paint.001.tres::2379269500ef9a0e8d8edb5b22a54e6b::1709231922::res://.godot/exported/133200997/export-5bf86dffe5ac528f27e8b6d47d659999-Paint.001.res
+res://scenes/characters_animations/jester.tscn::29d44ac359de34b8c478421b94a0d4b7::1708713549::res://.godot/exported/133200997/export-d8d24273f4e0a37456488b3a299cfbf0-jester.scn
+res://scenes/characters_animations/marionette.tscn::56971f455b161a073372569888601bc8::1709132985::res://.godot/exported/133200997/export-bf7898cdec667b0e989e809df6c9192a-marionette.scn
+res://scenes/characters_animations/sniffer.tscn::e118ffa81a87a2ad61ee98a35475560d::1709132936::res://.godot/exported/133200997/export-7bf452475ae762e0eb4fdca0cfda9c9e-sniffer.scn
+res://scenes/characters_animations/wm_dog.tscn::79df8860f231ec6bd88e43e9febb6312::1709231922::res://.godot/exported/133200997/export-65081a4bd46b8f327a45789b0792f2cf-wm_dog.scn

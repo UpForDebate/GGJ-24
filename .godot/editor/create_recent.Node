@@ -1,3 +1,5 @@
+OmniLight3D
+DirectionalLight3D
 Sprite3D
 TextureRect
 AudioStreamPlayer2D
@@ -8,7 +10,6 @@ Sprite2D
 Control
 Node3D
 MeshInstance3D
-DirectionalLight3D
 CSGBox3D
 RichTextLabel
 Button
